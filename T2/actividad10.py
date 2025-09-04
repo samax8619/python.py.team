@@ -1,4 +1,4 @@
-# •	Calculadora Simple: Construye una calculadora básica que tome 
+	# • actividad  :		Calculadora Simple: Construye una calculadora básica que tome 
 # dos números y un operador (+, -, *, /) ingresados por el usuario,
 # y muestre el resultado de la operación.
 
@@ -25,6 +25,7 @@ def calculadora(num1, num2, operador):
     else:
         return "Operador no válido. Por favor use +, -, *, o /."        
     
+
 
 
 print(calculadora(pedirNumero(), pedirNumero(), pedirOperador()))
