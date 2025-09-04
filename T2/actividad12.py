@@ -1,4 +1,4 @@
-# •	Juego de Piedra, Papel o Tijeras: Crea el juego clásico en el que un 
+# •	 actividad  :	Juego de Piedra, Papel o Tijeras: Crea el juego clásico en el que un 
 # jugador elige piedra, papel o tijeras, y luego se compara con la elección 
 # de la computadora para determinar el ganador.
 
@@ -25,5 +25,6 @@ def juego(eleccion_jugador):
     else:
         return "Perdiste"
     
+
 
 print(juego(pedirOpcion()))
