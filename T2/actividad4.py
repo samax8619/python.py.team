@@ -1,4 +1,4 @@
-#•	Factorial: Diseña un programa que calcule el factorial de un número
+#•	 actividad  :	 Factorial: Diseña un programa que calcule el factorial de un número
 # dado por el usuario utilizando un bucle.
 
 def calcular(numero):
@@ -10,6 +10,7 @@ def calcular(numero):
 def pedirNumero():
     numero = input("Ingrese un número para ver su factorial: ")
     return int(numero)
+
 
 
 
