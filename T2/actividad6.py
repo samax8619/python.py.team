@@ -1,4 +1,4 @@
-#	Contador de Dígitos: Escribe un programa que cuente la 
+#	 actividad  :	 Contador de Dígitos: Escribe un programa que cuente la 
 # cantidad de dígitos en un número entero ingresado por el 
 # usuario.
 
@@ -12,5 +12,6 @@ def contador(numero):
         numero //= 10
         contador += 1
     return f"el numero tiene {contador} digitos"
+
 
 print(contador(pedirNumero()))
