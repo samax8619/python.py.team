@@ -1,4 +1,4 @@
-# •	Números Pares e Impares: Escribe un programa que solicite al usuario
+# • actividad  :	Números Pares e Impares: Escribe un programa que solicite al usuario
 # un número y luego imprima si es par o impar.
 
 def calcular(numero):
@@ -10,6 +10,7 @@ def calcular(numero):
 def pedirNumero():
     numero =input("ingrese un numero: ")
     return int(numero)
+
 
 
 
