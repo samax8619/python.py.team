@@ -1,4 +1,4 @@
-# •	Generador de Tablas de Sumar: Desarrolla un programa que 
+# •	 actividad  :	 Generador de Tablas de Sumar: Desarrolla un programa que 
 # genere tablas de sumar para que los niños las practiquen. 
 # Pide al usuario la tablas que desean y el rango de números.
 
@@ -11,6 +11,7 @@ def tabla(numero):
     for i in range(1, 11):
         resultado += f"{numero} + {i} = {numero + i}\n"
     return resultado
+
 
 
 print(tabla(pedirNumero()))
