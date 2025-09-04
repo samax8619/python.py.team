@@ -1,4 +1,4 @@
-# •	Generador de Patrones: Escribe un programa que genere patrones
+# •  actividad  :		Generador de Patrones: Escribe un programa que genere patrones
 # interesantes utilizando bucles anidados y condicionales. Por ejemplo,
 # un triángulo de números o asteriscos.
 
@@ -13,6 +13,7 @@ def patron(numero):
             resultado += str(j) + " "
         resultado += "\n"
     return resultado
+
 
 
 print(patron(pedirNumero()))
