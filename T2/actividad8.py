@@ -1,4 +1,4 @@
-# •	Secuencia de Fibonacci: Crea un programa que genere los 
+# •  actividad  :	 	Secuencia de Fibonacci: Crea un programa que genere los 
 # primeros n términos de la secuencia de Fibonacci.
 
 def pedirNumero():
@@ -12,6 +12,7 @@ def fibonacci(numero):
         secuencia.append(a)
         a, b = b, a + b
     return f"Los primeros {numero} términos de la secuencia de Fibonacci son: {secuencia}"
+
 
 
 print(fibonacci(pedirNumero()))
