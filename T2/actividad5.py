@@ -1,4 +1,4 @@
-#•	Adivina el Número: Crea un juego en el que la computadora
+#•	  actividad  :	 Adivina el Número: Crea un juego en el que la computadora
 # elige un número aleatorio y el jugador intenta adivinarlo. 
 # La computadora debe proporcionar pistas como "más alto" o 
 # "más bajo" según el intento del jugador
@@ -24,3 +24,4 @@ def adivina_el_numero():
 
 # Ejecutar el juego
 adivina_el_numero()
+
