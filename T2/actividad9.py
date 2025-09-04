@@ -1,4 +1,4 @@
-# •	Cuenta Regresiva: Implementa un temporizador de cuenta
+# •	 actividad  :	 Cuenta Regresiva: Implementa un temporizador de cuenta
 # regresiva que tome un número ingresado por el usuario y 
 # cuente hacia atrás hasta cero.
 
@@ -13,6 +13,7 @@ def cuentaRegresiva(numero):
     for i in range(numero, -1, -1):
         secuencia.append(i)
     return f"La cuenta regresiva desde {numero} es: {secuencia}"
+
 
 
 
