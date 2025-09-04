@@ -1,4 +1,4 @@
-#•	Suma de Números: Pide al usuario que ingrese una serie de números. Cuando el usuario
+#•	 actividad  :	 Suma de Números: Pide al usuario que ingrese una serie de números. Cuando el usuario
 # ingrese un número negativo, muestra la suma de los números ingresados hasta ese punto.
 
 def sumarNumeros():
@@ -10,6 +10,7 @@ def sumarNumeros():
             break
         suma += numero
     return "El total de la suma es: ",suma
+
 
 
 print(sumarNumeros())
