@@ -1,4 +1,4 @@
-# •	Serie Matemática Personalizada: Crea un programa que genere
+# • actividad  :		Serie Matemática Personalizada: Crea un programa que genere
 # una serie matemática personalizada basada en las preferencias
 # del usuario, utilizando bucles y condicionales.
 
@@ -14,6 +14,7 @@ def serie(numero):
         else:
             resultado += f"{i}^3 = {i**3}\n"
     return resultado
+
 
 
 print(serie(pedirNumero()))
